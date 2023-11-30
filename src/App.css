@@ -1,0 +1,62 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  color: fdfaf5;
+  background-color: #1b1b32;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 40px;
+}
+
+h1{
+  color: #1b1b32;
+  font-size: 25px;
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+  margin: 20px 0;
+
+}
+
+.AppTareas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* imagen titulo */
+.contenedorImagen{
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toDo{
+  width: 300px;
+  height: auto;
+}
+
+/* Lista tareas */
+
+.listaTareasPrincipal{
+  width: 600px;
+  height: auto;
+  min-height: 500px;
+  background-color: #efc8ad;
+  padding: 25px;
+  margin:10px;
+  justify-content: center;
+  border-radius: 26px;
+}
